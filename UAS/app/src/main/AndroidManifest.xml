@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.uas"
+    tools:ignore="MissingLeanbackLauncher">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/SplashScreen"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".xeniaActivity"></activity>
+        <activity android:name=".teriosActivity" />
+        <activity android:name=".sirionActivity" />
+        <activity android:name=".sigraActivity" />
+        <activity android:name=".rockyActivity" />
+        <activity android:name=".aylaActivity" />
+        <activity android:name=".xpancrossActivity" />
+        <activity android:name=".xpanderActivity" />
+        <activity android:name=".TritonActivity" />
+        <activity android:name=".PajeroActivity" />
+        <activity android:name=".OutlanderActivity" />
+        <activity android:name=".EclipseActivity" />
+        <activity android:name=".SempatlimapuluhActivity" />
+        <activity android:name=".CtigaratusActivity" />
+        <activity android:name=".CLAtigalimaActivity" />
+        <activity android:name=".CempattigaActivity" />
+        <activity android:name=".AMGgtrActivity" />
+        <activity android:name=".AduaratusActivity" />
+        <activity android:name=".MsatuActivity" />
+        <activity android:name=".seridelapanActivity" />
+        <activity android:name=".xtujuhActivity" />
+        <activity android:name=".MduaActivity" />
+        <activity android:name=".seritujuhActivity" />
+        <activity android:name=".SeritigaActivity" />
+        <activity android:name=".CorollaActivity" />
+        <activity android:name=".FortunerActivity" />
+        <activity android:name=".AlphardActivity" />
+        <activity android:name=".InnovaActivity" />
+        <activity android:name=".YarisActivity" />
+        <activity android:name=".RaizeActivity" />
+        <activity android:name=".TypeRActivity" />
+        <activity android:name=".MobilioActivity" />
+        <activity android:name=".CrvActivity" />
+        <activity android:name=".BrioActivity" />
+        <activity android:name=".HrvActivity" />
+        <activity android:name=".CivicActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".DaihatsuActivity" />
+        <activity android:name=".MercyActivity" />
+        <activity android:name=".MitsubishiActivity" />
+        <activity android:name=".ToyotaActivity" />
+        <activity android:name=".BMWActivity" />
+        <activity android:name=".HondaActivity" />
+        <activity android:name=".DescActivity" />
+    </application>
+
+</manifest>
